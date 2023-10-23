@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const enterButton = document.getElementById("enterBtn");
 
     enterButton.addEventListener("click", function () {
-        statusElement.innerHTML = '<hi>Entered Metaverse</hi>';
+        statusElement.innerHTML = '<h1>Entered Metaverse</h1>';
     });
 });
